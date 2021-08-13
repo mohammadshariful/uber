@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/31b1cf5ca4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <!-- NavBar start -->
+   <section id="navbar " class="fixed-top">
+      <nav>
+          <a href="index.html" class="logo">Uber</a>
+          <div class="sing">
+            <a href="#"> <i class="far fa-user"></i></a>
+            <a href="#" class="sing-up">Sing up</a>
+         </div>
+          <div class="nav-links" id="navLinks">
+             
+             <i class="fas fa-times" onclick="closeBtn()"></i>
+             <hr>
+              <ul>
+                    <li><a href="#">company</a></li>
+                    <li><a href="#">safety</a></li>
+                    <li><a href="#">help</a></li>
+                    <li><a href="#">covid-19 resources</a></li>
+                    <hr>
+                    <div class="product">
+                        <a href="#"><img src="/icons/squares.png"class="icon"  alt=""> <span>Products</span> </a>
+                    <a href="#"> <img src="/icons/language.png"class="icon"  alt="">  EN </a>
+              </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showBtn()"></i>
+      </nav>
+   </section>
+   
+   <!-- NavBar End -->
+   <!-- about start -->
+   <section class="container mt-4">
+       <div class="row  ms-4">
+           <div class="col-md-4">
+               <div class="about d-flex align-center">
+                   <div class="box me-4" id="network">
+                       <a href="#"> <img src="/icons/signal.png"class="icon" alt=""></a> <br>
+                       <h5 class="pt-3">Drive or <br> deliver</h5>
+                   </div>
+                   <div class="box me-4 " id="eat">
+                    <a href="#"> <img src="/icons/eat.png"class="icon" alt=""></a> <br>
+                    <h5 class="pt-3">Eat</h5>
+                </div>
+                <div class="box me-4" id="ride">
+                    <a href="#"> <img src="/icons/car.png" alt=""></a> <br>
+                    <h5 class="pt-3">Ride</h5>
+                </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <hr>
+   <div class="container">
+    <div class="aboutOne" id="aboutOne">
+        <div class="content-box">
+            <h1>Get in the Drivers seat and get paid</h1>
+            <small>Drive on the platform with the largest network of active riders.</small>
+            <div class="box-link">
+                <span> 
+                    <a href="#" class="sing-driver">sing up to drive</a>
+                    <a href="#" class="learn-driving">Learn more about driving delivering</a>
+                </span>
+            </div>
+        </div>
+        <div class="imgOne"></div>
+    </div>
+
+    <div class="aboutTwo" id="aboutTwo">
+        <div class="content-box">
+            <h1>Discover delicious eats</h1>
+            <small>Order delivery from resturants you love.</small>
+            <div class="box-link">
+                <span> 
+                    <a href="#" class="sing-driver">Order Now</a>
+                    <a href="#" class="learn-driving">Own a resturant?Partner with Uber Eats</a>
+                </span>
+            </div>
+        </div>
+        <div class="imgTwo"></div>
+    </div>
+
+    <div class="aboutThree" id="aboutThree">
+        <div class="content-box">
+            <h1>Request a ride now</h1>
+            <form >
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter Picup location">
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" placeholder="Enter destination">
+                </div>
+            </form>
+            <div class="box-link">
+                <span> 
+                    <a href="#" class="sing-driver">Request Now</a>
+                    <a href="#" class="schedule">Schedule for later</a>
+                </span>
+            </div>
+        </div>
+        <div class="imgThree"></div>
+    </div>
+   </div>
+   
+   <!-- about end -->
+   <!-- business start -->
+   <section class="container">
+       <div class="business">
+           <div class="innerText">
+               <h2>Uber for Business</h2>
+               <p>Transform the way your company moves and feeds its people.</p>
+               <a href="#">See more</a>
+           </div>
+
+       </div>
+   </section>
+   <!-- business end -->
+   <!--  focused-safty start -->
+   <section class="container" id="safety">
+    <h2>Focused on safety,whatever you go</h2>
+    <div class="row">
+        <div class="col-md-6 focused">
+            <img src="images/safety-1.jpg" alt="">
+            <h3>Our commitment to your safety</h3>
+            <p>With every safety feature and every standard in our community Guidliness,we are committed to helping to create a safe environment for our users.</p>
+            <div class="link-box">
+                <a href="#">Read about Community Guidliness</a> <br>
+                <a href="#">See all safety features</a>
+            </div>
+        </div>
+        <div class="col-md-6 focused">
+            <img src="images/road-car.jpg" alt="">
+            <h3>Setting 10,000+citiesn in motion</h3>
+            <p>The app is avaiable in thousands of cities worldwide,so you can request a ride even when you are far from home.</p>
+            <a href="#">View all cities</a>
+        </div>
+    </div>
+   </section>
+   <!--  focused-safty End -->
+    <!-- Info section start -->
+   <div class="conatiner" id="Info">
+       <div class="row">
+           <div class="col-md-6 Info">
+               <img src="icons/about.png" class="icon" alt="">
+               <h3>About Us</h3>
+               <p>Find out how we started what drives us,and how we are igniting oppertunity.</p>
+               <a href="#">Learn More</a>
+           </div>
+           <div class="col-md-6 Info">
+            <img src="icons/news.png" class="icon" alt="">
+            <h3>Newsrooom</h3>
+            <p>See announcement about our latest releases,initiatives,and partnership.</p>
+            <a href="#">Learn More</a>
+        </div>
+       </div>
+       <div class="row">
+           <div class="col-md-6 global">
+            <img src="icons/home.png" class="icon" alt="">
+            <h3>Global citizenship</h3>
+            <p>Read about our commitment to making a positive impact in the cities we serve.</p>
+            <a href="#">Learn More</a>
+           </div>
+       </div>
+   </div>
+
+   <!-- Info section End -->
+   <!-- signup start -->
+   <div class="container">
+       <div class="row mb-3">
+           <div class="col-md-6">
+               <span class="d-flex justify-content-evenly">
+                   <h3>Sign up to drive</h3>
+                   <img src="icons/right arrow.png" class="icon" alt="">
+               </span>
+           </div>
+           <div class="col-md-6">
+            <span class="d-flex justify-content-evenly">
+                <h3>Sign up to ride</h3>
+                <img src="icons/right arrow.png" class="icon" alt="">
+            </span>
+        </div>
+       </div>
+   </div>
+
+   <!-- signup end -->
+   <!-- Footer Start -->
+   <footer id="footer">
+       <h2>Uber</h2>
+       <div class="help-link">
+           <a href="#">Visit Help Center</a> <br>
+           <a href="#">Bangladesh ridesharing related information</a>
+       </div>
+       <div class="row about-company">
+           <div class="col-md-6">
+               <h3>Company</h3>
+               <ul>
+                   <li>About us</li>
+                   <li>Our Offering</li>
+                   <li>Newsroom</li>
+                   <li>Investors</li>
+                   <li>Blog</li>
+                   <li>Careers</li>
+                   <li>All</li>
+                   <li>Gift cards</li>
+               </ul>
+           </div>
+           <div class="col-md-6">
+            <h3>Products</h3>
+            <ul>
+                <li>Ride</li>
+                <li>Drive</li>
+                <li>Deliver</li>
+                <li>Eat</li>
+                <li>Uber for business</li>
+                <li>Careers</li>
+                <li>Uber freight</li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Global citizenship</h3>
+                <ul>
+                    <li>Safety</li>
+                    <li>Diversity and Inclusion</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Travel</h3>
+                <ul>
+                    <li>Airports</li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       <div class="row company-contact">
+           <div class="col-md-6 d-flex justify-content-evenly ">
+               <li class="menu"> <img src="/icons/facebook.png" class="icon" alt=""></li>
+               <li class="menu"> <img src="/icons/twiteer.png" class="icon" alt=""></li>
+               <li class="menu"> <img src="/icons/you tube.png" class="icon" alt=""></li>
+               <li class="menu"> <img src="/icons/linkedin.png" class="icon" alt=""></li>
+               <li class="menu"> <img src="/icons/instagram.png" class="icon" alt=""></li>
+           </div>
+       </div>
+       <ul class="lang-loca ">
+           <li class="pb-3"> <img src="/icons/language.png" class="icon" alt=""> English</li>
+           <li> <img src="/icons/location.png" class="icon" alt=""> Dhaka</li>
+       </ul>
+      <!-- get app -->
+     <div class="row">
+         <div class="col-md-6 d-flex">
+            <div class="d-flex get-app">
+                <div class="align-self-start">
+                  <img src="/icons/google play.png" class=" me-3" alt="">
+                </div>
+                <div class="align-self-center">
+                    <h6>GET ON IT</h6>
+                    <h5>Google Play</h5>
+              </div>
+            </div>
+            <div class="d-flex get-app">
+                <div class="align-self-start">
+                  <img src="/icons/aaple.png" class="me-3" alt="">
+                </div>
+                <div class="align-self-center">
+                    <h6>Download on the</h6>
+                    <h5>App Store</h5>
+              </div>
+            </div>
+         </div>
+     </div>
+
+
+      <small>&copy; 2021 Uber Technologies Inc</small>
+      <div class="privacy mt-4">
+          <ul class=" d-flex justify-content-evenly">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+   </footer>
+
+
+
+   <!-- Footer End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>  
+  <script src="js/index.js"></script>  
+</body>
+</html>
